@@ -1,6 +1,6 @@
 {
-  "name": "components-library",
-  "private": true,
+  "name": "@robertosequeira/components-library",
+  "private": false,
   "version": "0.0.0",
   "description": "A template for creating React component libraries with Vite, Tailwind, and Storybook.",
   "author": "robertosequeira",
@@ -36,7 +36,7 @@
     "build:lib": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier . --write --ignore-unknown",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^8.5.3",
@@ -80,5 +80,18 @@
   "peerDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertosequeira/components-library.git"
+  },
+  "keywords": [
+    "vite",
+    "tailwindcss",
+    "storybook"
+  ],
+  "bugs": {
+    "url": "https://github.com/robertosequeira/components-library/issues"
+  },
+  "homepage": "https://github.com/robertosequeira/components-library#readme"
 }
